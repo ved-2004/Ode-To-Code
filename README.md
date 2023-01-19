@@ -1,6 +1,7 @@
-Team name: Ode to Code
-Team Members: Ved Chadderwala
-              Henil Thaker
-              Sneh Chaudhary
-              Dev Sharma
-Bakery Name: A1 Bakery
+Team name: Ode to Code<br>
+Team Members:<br>
+Ved Chadderwala<br>
+              Henil Thaker<br>
+              Sneh Chaudhary<br>
+              Dev Sharma<br>
+Bakery Name: A1 Bakery<br>
