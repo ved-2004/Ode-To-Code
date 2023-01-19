@@ -1,0 +1,279 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Common css style for top,sidebar and footer  -->
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="home-style.css"> 
+
+    <!-- Css style specific for mainpage  -->
+    <link rel="stylesheet" href="bday.css" >
+    
+    <title>Birthday</title>
+
+</head>
+
+<body>
+  <header>
+    <nav>
+        <img src="A1.png" alt="" id="logo">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li id="cakesWeBake"><a href="bday.html">Cakes We Bake</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
+    </nav>
+</header>
+
+
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('birthday')"> Birthday</button>
+  <button class="btn" onclick="filterSelection('wedding')"> Wedding</button>
+  <button class="btn" onclick="filterSelection('custom')"> Custom</button>
+</div>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column birthday">
+    <div class="content"><br>
+      <img src=".\babyelephant.jpg" alt="Mountains">
+      <br><h4>Price</h4><br>
+      <button class="order" > Order </button>
+    </div>
+  </div>
+  <div class="column birthday">
+    <div class="content"><br>
+      <img src=".\barbie.jpg" alt="Lights">
+      <br><h4>Price</h4><br>
+      <button class="order" > Order </button>
+    </div>
+  </div>
+  <div class="column birthday">
+    <div class="content"><br>
+      <img src=".\bluegold.jpg" alt="Nature">
+      <br><h4>Price</h4><br>
+      <button class="order" > Order </button>
+    </div>
+  </div>
+  <div class="column birthday">
+    <div class="content"><br>
+      <img src=".\boygirlsitting.jpg" alt="Mountains">
+      <br><h4>Price</h4><br>
+      <button class="order" > Order </button>
+    </div>
+  </div>
+  <div class="column birthday">
+    <div class="content"><br>
+      <img src=".\BTS.jpg" alt="Lights">
+      <br><h4>Price</h4><br>
+      <button class="order" > Order </button>
+    </div>
+  </div>
+  <div class="column birthday">
+    <div class="content"><br>
+      <img src=".\choclate&toffee.jpg" alt="Nature">
+      <br><h4>Price</h4><br>
+      <button class="order" > Order </button>
+    </div>
+  </div>
+  <div class="column birthday">
+    <div class="content"><br>
+      <img src=".\unicorn.jpg" alt="Mountains">
+      <br><h4>Price</h4><br>
+      <button class="order" > Order </button>
+    </div>
+  </div>
+  <div class="column birthday">
+    <div class="content"><br>
+      <img src=".\girlballoon.jpg" alt="Lights">
+      <br><h4>Price</h4><br>
+      <button class="order" > Order </button>
+    </div>
+  </div>
+  <div class="column birthday">
+    <div class="content"><br>
+      <img src=".\train.jpg" alt="Nature">
+      <br><h4>Price</h4><br>
+      <button class="order" > Order </button>
+    </div>
+  </div>
+
+  <div class="column wedding">
+    <div class="content"><br>
+      <img src=".\wedding.jpg" alt="Car">
+      <br><h4>Price</h4><br>
+      <button class="order" > Order </button>
+    </div>
+  </div>
+  <div class="column wedding">
+    <div class="content"><br>
+      <img src=".\hubby.jpg" alt="Car">
+      <br><h4>Price</h4><br>
+      <button class="order" > Order </button>
+    </div>
+  </div>
+  <div class="column wedding">
+    <div class="content"><br>
+      <img src=".\rose.jpg" alt="Car">
+      <br><h4>Price</h4><br>
+      <button class="order" > Order </button>
+    </div>
+  </div>
+  <div class="column wedding">
+    <div class="content"><br>
+      <img src=".\wed.jpg" alt="Car">
+      <br><h4>Price</h4><br>
+      <button class="order" > Order </button>
+    </div>
+  </div>
+  <div class="column wedding">
+    <div class="content"><br>
+      <img src=".\hearyt.jpg" alt="Car">
+      <br><h4>Price</h4><br>
+      <button class="order" > Order </button>
+    </div>
+  </div>
+  <div class="column wedding">
+    <div class="content"><br>
+      <img src=".\flowers.jpg" alt="Car">
+      <br><h4>Price</h4><br>
+      <button class="order" > Order </button>
+    </div>
+  </div>
+  <div class="column wedding">
+    <div class="content"><br>
+      <img src=".\engaged.jpg" alt="Car">
+      <br><h4>Price</h4><br>
+      <button class="order" > Order </button>
+    </div>
+  </div>
+  <div class="column wedding">
+    <div class="content"><br>
+      <img src=".\bridetobe.jpg" alt="Car">
+      <br><h4>Price</h4><br>
+      <button class="order" > Order </button>
+    </div>
+  </div>
+  <div class="column wedding">
+    <div class="content"><br>
+      <img src=".\blueflower.jpg" alt="Car">
+      <br><h4>Price</h4><br>
+      <button class="order" > Order </button>
+    </div>
+  </div>
+
+  <div class="column custom">
+    <div class="content"><br>
+      <img src=".\canada.jpg" alt="People">
+      <br><h4>Price</h4><br>
+      <button class="order" > Order </button>
+    </div>
+  </div>
+  <div class="column custom">
+    <div class="content"><br>
+      <img src=".\dancegirl.jpg" alt="People">
+      <br><h4>Price</h4><br>
+      <button class="order" > Order </button>
+    </div>
+  </div>
+  <div class="column custom">
+    <div class="content"><br>
+      <img src=".\fruit.jpg" alt="People">
+      <br><h4>Price</h4><br>
+      <button class="order" > Order </button>
+    </div>
+  </div>
+  <div class="column custom">
+    <div class="content"><br>
+      <img src=".\janmashtami.jpg" alt="People">
+      <br><h4>Price</h4><br>
+      <button class="order" > Order </button>
+    </div>
+  </div>
+  <div class="column custom">
+    <div class="content"><br>
+      <img src=".\monsterenergydrink.jpg" alt="People">
+      <br><h4>Price</h4><br>
+      <button class="order" > Order </button>
+    </div>
+  </div>
+  <div class="column custom">
+    <div class="content"><br>
+      <img src=".\mundan.jpg" alt="People">
+      <br><h4>Price</h4><br>
+      <button class="order" > Order </button>
+    </div>
+  </div>
+  <div class="column custom">
+    <div class="content"><br>
+      <img src=".\paris.jpg" alt="People">
+      <br><h4>Price</h4><br>
+      <button class="order" > Order </button>
+    </div>
+  </div>
+  <div class="column custom">
+    <div class="content"><br>
+      <img src=".\pubg.jpg" alt="People">
+      <br><h4>Price</h4><br>
+      <button class="order" > Order </button>
+    </div>
+  </div>
+  <div class="column custom">
+    <div class="content"><br>
+      <img src=".\winter.jpg" alt="People">
+      <br><h4>Price</h4><br>
+      <button class="order" > Order </button>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+
+
+<div id="footer">
+  <div class="main-footer">
+
+    <div class="address">
+      <h1>A-one Cake Shop</h1>
+      <pre>Address: A-one cake shop, Jogani Nagar, 
+Palanpur Patia, Surat, Gujarat 395009</pre>
+    </div>
+
+    <div class="contactDetails">
+      <h1>Contact Us</h1>
+      <li>
+        <a href="tel:+919326048690"><div class="fa fa-phone"></div>+91 078743 32255</a>
+      </li>
+      <li>
+        <a href="mailto:a1cakesshop@gmail.com"><div class="fa fa-envelope"></div>a1cakeshop@gmail.com</a>
+      </li>
+      </li>
+    </div>
+    <div class="com">
+      <h1>Visit</h1>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="contact-us.html">Contact-Us</a></li>
+        <li><a href="bday.html">CakesWeBake</a></li>
+      </ul>
+    </div>
+    <div class="info">
+      <h1>Social Media</h1>
+      <div class="sociallogos">
+        <div class="logobox">
+          <a target="_blank" href="https://www.instagram.com/bakers_biscuit/?igshid=YmMyMTA2M2Y%3D" class="fa fa-instagram"></a>
+          <a href="https://wa.me/917016506608?text=Hello+A1+Bakery%0D%0AI+would+like+to+order+a+customised+cake+for+my+friend%27s+birthday." class="fa fa-whatsapp"></a>
+          <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+          <a href="https://www.youtube.com/@a-onecakepastry" class="fa fa-youtube"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>©Copyright 2023 All Rights Reserved</footer>
+</div>
+
+<script src="bday.js"></script>
+</body>

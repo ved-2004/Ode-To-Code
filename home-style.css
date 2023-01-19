@@ -1,0 +1,223 @@
+:root {
+    --headerfooterBgColor: #c7322e;
+    --mainBgColor: rgb(255, 255, 255);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ourSpeciality{
+    margin-top: 3%;
+    color:#c7322e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ourSpeciality li{
+    list-style-position: inside;
+}
+.ourSpeciality img{
+    /* height: 30v; */
+    width: 30vw;
+}
+.review{
+    color:#c7322e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+.review img{
+    margin-top: 10px;
+    height: 35vh;
+}
+
+.about p {
+    margin-top: 1%;
+}
+
+.orderform {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.order{
+    width: 80vw;
+}
+
+.formhead {
+    color: #c7322e;
+    margin: 1.5% 0%;
+}
+
+form {
+    margin: 1% 0%;
+}
+
+.aboutContainer {
+    margin: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.about {
+    width: 80vw;
+    color: rgb(46, 121, 233);
+}
+
+header {
+    background-color: var(--headerfooterBgColor);
+}
+
+nav {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#logo {
+    height: 11vh;
+    margin-left: 20px;
+    border-radius: 5px;
+    /* background-color: white; */
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px auto;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0px 15px;
+    color: white;
+    font-size: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white
+}
+
+#cakesWeBake {
+    position: relative;
+}
+
+#down-arrow {
+    position: relative;
+    top: 3px;
+}
+
+#menu-items {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    display: block;
+    background-color: black;
+    color: white;
+    right: 43vw;
+    top: 8vh;
+    z-index: -1;
+}
+
+.slider {
+    margin: 2%;
+    overflow: hidden;
+    background-color: white;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+.slider img{
+    width: 80vw;
+}
+
+main {
+    background-color: var(--mainBgColor);
+}
+
+.rimg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.review h2 {
+    margin-bottom: 1%;
+}
+
+.ourSpeciality h2 {
+    margin-bottom: 1%;
+}
+
+.about {
+    text-decoration: solid;
+    font-size: larger;
+    font-weight: 700;
+    color: black;
+}
+
+.ourSpeciality li {
+    font-weight: 500;
+}
+
+input {
+    border-color: #c7322e;
+    /* width: 25%; */
+    height: 25px;
+}
+
+select {
+    border-color: #c7322e;
+    /* width: 25%; */
+    height: 25px;
+}
+
+#submitbtn {
+    background-color: #c7322e;
+    color: white;
+    height: 25px;
+    width: 6vw;
+    margin-left: 3vw;
+}
+
+@media screen and (max-width: 540px) {
+    nav ul li{
+        font-size: 14px;
+    }
+    #logo {
+        height: 8vh;
+        margin: 0;
+    }
+    .slider img{
+        width: 100vw;
+    }
+    .rimg{
+        flex-direction: column;
+    }
+}
+@media  screen and (max-height: 650px) {
+    .slider{
+        height: 25vh;
+    }
+    .slider img{
+        width: 100vw;
+    }
+    .rimg{
+        flex-direction: column;
+    }
+}

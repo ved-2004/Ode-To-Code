@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+:root {
+    --headerfooterBgColor: #c7322e;
+    --mainBgColor: rgb(233, 233, 233);
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    margin: 10px;
+}
+
+#map-id {
+    height: 90vh;
+    width: 45vw;
+    margin:5px auto;
+}
+
+.contact-details {
+    /* display: flex;
+    flex-direction: column; */
+    /* align-items: center; */
+    margin: 5px 0px;
+    width: 45vw;
+    color: var(--headerfooterBgColor);
+    background-color: white;
+    border: 1px solid var(--headerfooterBgColor);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.contact-details ul {
+    margin: 10px 0px;
+}
+
+.generalContact li {
+    margin: 15px 0px;
+    list-style: none;
+}
+
+.social {
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 1vw;
+    right: 21vw;
+}
+
+.social li {
+    list-style: none;
+    margin: 0px 5px;
+}
+
+.social li a {
+    text-decoration: none;
+    color: var(--headerfooterBgColor);
+}
+
+@media screen and (max-width: 690px) {
+    .contact {
+        flex-direction: column;
+    }
+
+    #map-id {
+        display: block;
+        height: 40vh;
+        width: 95vw;
+        margin: 5px auto;
+    }
+
+    .contact-details {
+        /* display: block; */
+        width: 95vw;
+        height: 40vh;
+        margin: 5px auto;
+        /* overflow-wrap: break-word; */
+        box-sizing: border-box;
+    }
+
+    .social {
+        right: 39vw;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .contact{
+        margin: 0;
+    }
+    nav ul li{
+        font-size: 14px;
+    }
+    #logo {
+        height: 8vh;
+        margin: 0;
+    }
+    .map{
+        margin: 0;
+    }
+    .contact-details{
+        margin: 5px auto;
+        font-size: 70%;
+    }
+}
+@media  screen and (max-height: 700px) {
+    #map-id{
+        height: 30vh;
+    }
+    .contact-details{
+        height: 30vh;
+    }
+}
